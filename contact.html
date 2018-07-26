@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -17,7 +18,18 @@
     <div class="container">
         <div class="PageContent">
             <h2 id="pagecontentheading">Contact</h2>
-            place form items here
+            <form>
+                Name<br>
+                <input class="contactinput" type="text" name="Name" placeholder="John Smith">
+                <br>
+                Email<br>
+                <input class="contactinput" type="text" name="Email" placeholder="example@gmail.com">
+                <br>
+                Message<br>
+                <textarea id="meassagetext" name="message" rows="10" cols="30"></textarea>
+                <br><br>
+                <input id="submitbutton" type="submit" value="Submit">
+            </form> 
         </div>
     </div>
     <footer>
