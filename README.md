@@ -11,7 +11,7 @@ Learning html,css,floats,positioning,pseudo classes,form
 ## Images
 <!-- take a picture of the image and add it into the readme  -->
 <!-- ![image title](path or link to image) -->
-![wireframe](images/portfolio-layout.jpg)
+![basic-portfolio](assets/images/portfolio-layout.jpg)
 
 ## technology used
 <!-- make a list of technology used -->
